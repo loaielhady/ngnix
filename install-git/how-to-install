@@ -14,8 +14,8 @@ Complete Installation: Finish the process and click "Finish."
 
 Verification: Open the Command Prompt or PowerShell and run the following command to verify the installation:
 
-```html
- <p> git --version </p>
+```
+git --version
 ```
 
 If successful, it will display the installed Git version.
