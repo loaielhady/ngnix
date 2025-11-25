@@ -14,8 +14,9 @@ Complete Installation: Finish the process and click "Finish."
 
 Verification: Open the Command Prompt or PowerShell and run the following command to verify the installation:
 
-Bash
-code block git --version
+```Bash
+ git --version
+```
 
 If successful, it will display the installed Git version.
 
@@ -31,9 +32,3 @@ The text will appear in a distinct box with monospace font, often with syntax hi
 
 For making a single command, file name, or variable easily copyable within a paragraph, use inline code.
 
-### **Syntax**
-
-Wrap the text in a **single backtick** ( $\texttt{\`}$ ) on both sides.
-
-```markdown
-You can initialize the project by running `npm init -y` in your terminal.
