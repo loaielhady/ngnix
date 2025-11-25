@@ -1,11 +1,15 @@
 
-💻 Installing Git on Windows
+### 💻 Installing Git on Windows
 The simplest and most common way to install Git on Windows is by using the official installer.
 
-Steps:
-Download the Installer: Go to the official Git website and download the latest installer for Windows.
+### Steps:
 
-Run the Installer: Double-click the downloaded .exe file to start the installation.
+Download the Installer:
+
+Go to the official Git website and download the latest installer for Windows.
+
+### Run the Installer:
+Double-click the downloaded .exe file to start the installation.
 
 Follow Prompts: You can generally accept the default settings during the installation, as they are configured for the most common use cases.
 
