@@ -29,10 +29,6 @@ server {
 
 	root /var/www/html;
 
-	index index.html index.htm index.nginx-debian.html;
-
-	server_name _;
-
 	location / {
 
 	    proxy_pass http://backend_app;
@@ -77,8 +73,7 @@ sudo systemctl reload nginx
 
 
 * ### Using `weight`
- to influence the load balancing algorithms, directing a proportionally higher or lower number of incoming requests to specific backend servers
- 
+
 ```
 upstream backend_app {
     
