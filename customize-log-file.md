@@ -5,7 +5,7 @@
 
 
 
-### Step 1 :  Set cutomizing the log format
+### Step 1 :  Pick cutomizing the log format
 
 
 ```
@@ -17,6 +17,17 @@ log_format custom_format '$remote_addr - $remote_user [$time_local] '
 
 
 
+### Step 2 : Define where path do you want to save your new access log file
+
+```
+	access_log /home/loai/Desktop/custom_access.log custom_format;
+```
+
+### Step 3 :
+
+#### cutomizing erorr log with one of this level : 
+
+`warn` `info` `emerg` `erorr`
 
 ```
 
@@ -24,6 +35,9 @@ error_log /Your/Path/custom_error.log warn;
 ```
 
 
-```
-	access_log /home/loai/Desktop/custom_access.log custom_format;
-```
+
+
+
+
+
+
